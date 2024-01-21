@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.swiper-slide{
+    height: 70vh;
+}
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.slider-dw{
+    background-image: url(../../HTML-CSS/image/amogus_france.gif);
+    background-size: cover;
+}
+
+body .swiper-pagination-bullet {
+    width: 18px;
+    height: 18px;
+}
+
+body .swiper-pagination-bullet-active{
+    background: orangered;
+}
+
+body .swiper-button-next
+body .swiper-button-prev{
+    color: orangered;
+}
+
